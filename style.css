@@ -1,0 +1,235 @@
+.bg-dark-75{
+      background-color: rgba(33, 37, 41, .55) !important;
+}
+.bg-dark-80{
+      background-color: rgba(33, 37, 41, .80) !important;
+}
+.navbar{
+      background-color: rgba(33, 37, 41, .55) !important;
+      align-items: center;
+      border: 10px white;
+      border-radius: 60px 60px;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      display: flex;
+      
+}
+.navbar-brand{
+      margin-left: 2rem;
+      align-items: center;
+      width: auto;
+}
+.navbar-nav{
+      align-items: center;
+}
+.header{
+      display: block;
+}
+.page-header {
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+      align-items: center;
+      background-size: cover;
+      background-position: 53%;
+}
+.min-vh-75{
+      min-height: 75vh !important;
+}
+.min-vh-60{
+      min-height: 60vh !important;
+}
+.logo{
+      margin-right: 1rem;
+      max-width: 3vw;
+      min-width: 20px;
+      width: 100%;
+      height: auto;
+}
+.nav-link{
+      margin-right: 1rem;
+      margin-left: 1rem;
+}
+.cardpres{
+      border-radius: 2rem;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+}
+.h1title{
+      font-weight: 750;
+}
+.lead1{
+      font-weight: 450;
+      font-size: 1.5rem;
+}
+.responsive {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+}
+.waves {
+      position: relative;
+      width: 100%;
+      height: 1vh;
+      min-height: 100px;
+      max-height: 150px;
+}
+.waves1{
+      position: relative;
+      width: 100%;
+      height: 1vh;
+      min-height: 100px;
+      max-height: 150px;
+      transform: rotate(180deg);
+}
+.waves2 {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 1vh;
+      min-height: 100px;
+      max-height: 150px;
+}
+.parallax > use {
+      animation: move-forever 40s cubic-bezier(.55,.5,.45,.5)     infinite;
+    }
+    .parallax > use:nth-child(1) {
+      animation-delay: -2s;
+      animation-duration: 11s;
+    }
+    .parallax > use:nth-child(2) {
+      animation-delay: -4s;
+      animation-duration: 13s;
+    }
+    .parallax > use:nth-child(3) {
+      animation-delay: -3s;
+      animation-duration: 15s;
+    }
+    .parallax > use:nth-child(4) {
+      animation-delay: -4s;
+      animation-duration: 20s;
+    }
+    .parallax > use:nth-child(5) {
+      animation-delay: -4s;
+      animation-duration: 25s;
+    }
+    .parallax > use:nth-child(6) {
+      animation-delay: -3s;
+      animation-duration: 30s;
+    }
+    @keyframes move-forever {
+      0% {
+       transform: translate3d(-90px,0,0);
+      }
+      100% { 
+        transform: translate3d(85px,0,0);
+      }
+    }
+    /*Shrinking for mobile*/
+    @media (max-width: 768px) {
+      .waves {
+        height:60px;
+        min-height:60px;
+      }
+      .waves1 {
+            height:60px;
+            min-height:60px;
+      }
+      .waves2 {
+            height:60px;
+            min-height:60px;
+      }
+      .content {
+        height:30vh;
+      }
+}
+.hello{
+      text-align: center;
+}
+.textindex{
+      font-size:1.3rem;
+}
+.textindex1{
+      font-size:1.2rem;
+}
+.pht{
+      border-radius:2rem;
+
+}
+.import{
+      background-image: url(includes/images/midpht.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center;
+}
+.importhydro{
+      background-image: url(includes/images/hydropower/hydro_wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center;
+}
+.importwind{
+      background-image: url(includes/images/windpower/wind_wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center;
+}
+.importsolar{
+      background-image: url(includes/images/solarpower/solar_wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center;
+}
+.importbio{
+      background-image: url(includes/images/biopower/bio_wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center;
+}
+.importgeo{
+      background-image: url(includes/images/geopower/geo_wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center;
+}
+.importgeoalt{
+      background-image: url(includes/images/geoalt/geoalt_wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center;
+}
+.importbioeth{
+      background-image: url(includes/images/bioethanol/bio1_wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center;
+}
+.importmarine{
+      background-image: url(includes/images/marinepower/marine_wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center;
+}
+.importbiomass{
+      background-image: url(includes/images/biomass_wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: center; 
+}
+.img-fluid{
+      border-radius: 1rem;;
+}
+.page-footer {
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+      align-items: center;
+      background-size: cover;
+      background-position: 53%;
+}
+.crtby{
+      font-size: 1.5em;
+}
+.crdtext{
+      font-size: 1.2rem;
+}
